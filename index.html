@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Café Memes Board</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cat Café Memes</h1>
+        <p>Share your funniest cat memes here!</p>
+    </header>
+    <div class="upload-container">
+        <form id="uploadForm">
+            <input type="file" id="mediaInput" accept="image/*,video/*" required>
+            <button type="submit">Upload</button>
+        </form>
+    </div>
+    <div class="board" id="board">
+        <!-- Uploaded content will appear here -->
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
